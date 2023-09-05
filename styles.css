@@ -1,5 +1,6 @@
 body {
   background-color: #111;
+  overflow-x: hidden;
 }
 
 #main-img-wrapper {
@@ -135,4 +136,64 @@ body {
 .list-item15#on::before,
 .list-item20#on::before {
   background-image: url('	https://recruit.kakaobank.com/_next/static/media/03-light-img-05.d5f818977ac94fdf5af8c5a8576ee265.png');
+}
+
+#panel1-img {
+  position: relative;
+  height: 320px;
+  margin-bottom: 300px;
+}
+
+#flying-santa {
+  height: 380px;
+  position: absolute;
+  right: -50px;
+  transform: translate(80px, -13px) rotate(24deg);
+}
+
+#video-section {
+  margin-bottom: 300px;
+}
+
+#video {
+  display: block;
+  height: 350px;
+  margin: 0 auto;
+}
+
+#fixed-description {
+  color: white;
+  margin: 30px auto;
+  width: 622px;
+  text-align: right;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  transform: translateY(95px);
+  opacity: 0;
+}
+
+#bank-beyond-wrapper {
+  height: 380px;
+  margin-bottom: 130px;
+}
+
+#bank-beyond {
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+#white-wrapper {
+  background-color: #f7f7f7;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#white-wrapper p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #111;
 }
